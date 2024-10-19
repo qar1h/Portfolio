@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.navi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+.navi img {
+    width: 50px;
+    height: auto;
+}
+
+.navi span {
+    margin-right: 15px;
+}
+
+.navi .name {
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    color: yellowgreen;
+}
+
+.foot {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.foot a:hover {
+    color: yellowgreen;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navi {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navi a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #e6f7ff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.about-text p {
+    font-family: Georgia, serif;
+}
+
+.about-text h1 {
+    font-family: Georgia, serif;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    height: 570px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.foot {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.foot a:hover {
+    color: yellowgreen;
+}
+
+.profile img {
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
